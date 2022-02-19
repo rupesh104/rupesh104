@@ -1,0 +1,240 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+}body {
+    background-color: #AED6F1;
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #0b0c0c;
+}
+
+.right-section {
+    grid-column: span 4;
+    height: 100%;
+    background-color: white;
+}
+
+.left-section-contents{
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #1B2631;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #f7f8fa;
+}
+
+.contact-info ul {
+    padding-top: 1.5rem;
+}
+
+.project-info ul li,.achievement-info ul li{
+    padding: .4rem 1rem;
+    display: flex;
+    align-items: center;
+    color: #d6dbdfaf;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 1rem;
+    display: flex;
+    align-items: center;
+    color: #d6dbdfaf;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.contact-info ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #2E86C1;
+}
+
+.projects,.achieve{
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    color: #d6dbdfaf;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #d8d51daf;
+}
+
+
+.right-section-contents {
+    padding: 2rem 2rem;
+}
+
+.right-title {
+    color: #080808;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 1.4rem 0rem;
+    position: relative;
+    border-bottom: 25px solid #cee40caf ;
+    border-;
+}
+.sub-title{
+    color: #470e6d;
+    font-size: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0rem;
+    position: relative;
+}
+.about-gap {
+    padding-bottom: 2rem;
+}
+.about-me-contents {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+}
+
+.experience-contents,
+.education-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+}
+
+.exp-company-name,
+.education-school-name {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #192c38;
+    padding-bottom: .4rem;
+}
+
+.exp-time-period,
+.educationp-time-period {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+
+.education-subject {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #031c2c;
+    padding-bottom: .4rem;
+    padding-left: 5rem;
+}
+
+.exp-position{
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #031c2c;
+    padding-bottom: .4rem;
+    padding-left: 5rem;
+    border-left: 3px solid #a5a3a3;
+}
+.education-desc {
+    font-size: 28px;
+    font-weight:500;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    border-left: 3px solid #a5a3a3;
+    padding-left: 10px;
+    padding-left: 5rem;
+}
+.acheive-descr,.exp-descr ul li{
+    font-size: 30px;
+    font-weight:500;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    list-style:square;
+    font-weight: 500;;
+}
+.skill-title{
+    font-size: 40px;
+    padding-left: 5rem;
+    font-weight: 600;
+}
+.skill-bar{
+    padding-left: 1rem;
+    width: 80%;
+    height: 1rem;
+    position: relative;
+    left: 0;
+    background-color:#afa5b9;
+    border-radius: 50px;
+}
+.progress{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #310b63;
+}
+.html{
+    width: 30%;
+}
+.c{
+    width: 70%;
+}
+.c+{
+    width: 70%;
+}
+.Python{
+    width: 40%;
+}
+.Git{
+    width: 70%;
+} 
+.Linux-Bash-Shell{
+    width: 50%;
+}
+.SQL{
+    width: 60%;
+}
+.comp ul li{
+    font-size: 30px;
+    font-weight:500;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    list-style:square;
+    padding-top: 3rem;
+    font-weight: 500;
+}
